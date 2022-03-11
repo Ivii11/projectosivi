@@ -1,0 +1,128 @@
+
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-suelo-textura-madera-beige_53876-98334.jpg?size=626&ext=jpg);
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #bbb;
+    transition: color .3s ease-in-out, .3s ease-in-out;
+}
+
+
+.main_nav{
+    background-color: rgba(33, 30, 26, 0.57);
+}
+.main_ul{
+    display:flex;
+    align-items:bottom;
+    justify-content: right;
+    list-style: none;
+}
+
+.main_li{
+    margin:20px 15px 15px 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    cursor: pointer;
+}
+
+
+a:hover{
+    color:#fff;
+}
+
+
+#pedro{
+    margin-right: 200px;
+}
+
+
+.carta{
+    background: rgba(83, 123, 138, 0.453);
+    color:#fff;
+}
+
+.carta1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 125px;
+}
+
+.carta2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+
+.cont_img{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.img{
+    height: 750px;
+    width: 1050px;
+    transition: transform .3s ease-in;
+}
+
+.img:hover{
+    transform: scale(1.05);
+}
+
+.esp{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    opacity: .9;
+}
+
+.cont_img1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    height: 850px;
+    width: 650px;
+}
+
+
+.grid{
+    background-image: url(pared.jpg);
+    display: grid;
+    grid-template-columns: repeat(3 ,300px);
+    grid-template-rows: repeat(3, 230px);
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid_img{
+    height: 200px;
+    width: 250px;
+    transition: transform .3s ;
+    margin-top: 20px;
+}
+
+
+.grid_img:hover{
+    transform: scale(1.07);
+}
+
+.coma{
+    background-color: #f02;
+}
+
+.coma_p{
+    padding: 25px;
+    text-align: center;
+    opacity: .9;
+}

@@ -1,0 +1,166 @@
+
+.main_nav{
+    background-image: url(fondo\ index.jpg);
+    object-fit: cover;
+    height: 650px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #bbb;
+    transition: color .3s ease-in-out, .3s ease-in-out;
+}
+
+
+.main_ul{
+    display:flex;
+    align-items:bottom;
+    justify-content: right;
+    list-style: none;
+}
+
+.main_li{
+    margin:20px 15px 15px 15px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+
+a:hover{
+    color:#fff;
+}
+
+#pedro{
+    margin-right: 200px;
+}
+
+.cajamadre{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    align-items: bottom;
+}
+.contenedor_p{
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 7px;
+    font-size: 150px;
+    font-family: 'Dancing Script', cursive;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: bottom;
+}
+
+.content_p{
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 7px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+
+.atexto{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.texto{
+    display:flex;
+    justify-content: center;
+    align-items: bottom;
+}
+
+
+.texto_p{
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    opacity: .8;
+    padding-left: 50px;
+    line-height: 35px;
+}
+
+.adiv{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+
+.img_grid{
+    padding:0;
+    margin:0;
+}
+
+.polla{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin: 15px;
+    transition: transform .3s linear;
+}
+
+.polla:hover{
+    transform: scale(1.1)
+}
+
+
+.final{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-estudio-pared-gris-negro-sala-blanco-banner-vacio_28629-596.jpg?size=626&ext=jpg);
+}
+
+
+.flex_img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mono{
+    height: 400px;
+    width: 500px;
+}
+
+.pedro{
+    padding-top: 200px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+}
+
+.final_p{
+    line-height: 40px;
+    color: #fff;
+}
+
+
+
+.coma{
+    background-color: #f02;
+}
+
+.coma_p{
+    padding: 25px;
+    text-align: center;
+    opacity: .9;
+}
